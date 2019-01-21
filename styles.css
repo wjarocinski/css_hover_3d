@@ -17,13 +17,13 @@ body {
     transform: perspective(300px) rotateX(20deg);
     will-change: perspective;
     perspective-origin: center center;
-    transition: all 1.3s ease-out;
+    transition: all .8s ease-out;
     justify-content: center;
     transform-style: preserve-3d;
 }
 .all:hover {
     perspective: 1000px;
-    transition: all 1.3s ease-in;
+    transition: all .8s ease-in;
     transform: perspective(10000px) rotateX(0deg);
 }
 .all:hover .text {
